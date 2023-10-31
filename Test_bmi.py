@@ -1,4 +1,5 @@
-import Lab2_DOAIOT.bmi as bmi
+import importlib
+bmi = importlib.import_module("Lab2-DOAIOT.main")
 
 def test_bmi_normal_weight():
     result = bmi.calculate_bmi(1.73,57)
